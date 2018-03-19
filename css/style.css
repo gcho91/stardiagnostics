@@ -1,0 +1,132 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+body {
+	font-size: 1.05em;
+	line-height: 1.25em;
+	/* font-family: 'Helvetica Neue', Helvetica, Arial; */
+  font-family: 'Helvetica Neue', 'Open Sans', "Arial";
+	background: #f9f9f9;
+	/* color: #555; */
+}
+
+h1{
+  font-family: "Bree Serif";
+  font-size: 2em;
+  line-height: 1.15em;
+  margin: 20px 0 ;
+
+}
+
+.home-intro-section{
+  padding-top: 100px;
+  /* padding-left: 100px; */
+  background-image: url("/img/stockimage-doctor-shutterstock-preview.png");
+  height: 80vh;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.home-intro-section-text{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.home-intro-left{
+  width: 60%;
+  /* padding-left: 100px; */
+}
+
+
+
+
+.home-services{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-services-row{
+  width: 100%;
+}
+
+.column{
+  width: 33.33%;
+  float: left;
+  /* text-align: center; */
+}
+
+
+
+/*  ///////////////// buttons ///////////////// */
+.button{
+		font-family: 'Helvetica Neue';
+    border: none;
+    /* padding: 15px 32px; */
+		padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 16px; */
+    margin: 4px 2px;
+    cursor: pointer;
+  	min-width: 200px;
+		/* width: 250px; */
+		/* max-width: 180px; */
+}
+
+.button-blue{
+    background-color: blue;
+    color: white;
+}
+
+.button-white{
+  background-color: #F5F6FA;
+  color: black;
+}
+
+.learn-more-button{
+  /* clears l/r of button and centers */
+  clear:both;
+}
+
+
+
+
+
+/*////////////////////////MEDIA QUERIES/////////////////  */
+
+
+
+@media only screen and (max-width : 640px) {
+
+.column{
+  /* services row becomes full width */
+  width: 100%;
+}
+
+
+.home-intro-section-text{
+  width: 100%;
+  margin: 0 auto;
+  /* margin-top: 60px; */
+}
+
+.home-intro-left{
+  width: 80%;
+  margin: 0 auto
+  /* padding-left: 100px; */
+}
+
+
+
+
+
+
+
+
+}
