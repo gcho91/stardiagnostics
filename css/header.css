@@ -56,7 +56,9 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(http://treehouse-blog.s3.amazonaws.com/Respond-Menu/img/logo.png) center;
+	/* background: #4C8FEC url(/img/hamburger.svg) center no-repeat; */
+	background: url(/img/hamburger.svg) center no-repeat;
+
 
 }
 
@@ -84,6 +86,8 @@ nav li {
 
 .current {
 	color: #2262AD;
+	/* color: salmon; */
+
 }
 
 
