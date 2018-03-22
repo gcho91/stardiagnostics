@@ -27,7 +27,7 @@ h2{
 .home-intro-section{
   padding-top: 100px;
   /* padding-left: 100px; */
-  background-image: url(/img/stockimage/stockimage-doctor-shutterstock-preview.png);
+  background-image: url("http://www.gloriacho.com/stardiagnostics/img/stockimage/stockimage-doctor-shutterstock-preview.png");
 	/* background-color: salmon; */
   height: 80vh;
   background-size:cover;
