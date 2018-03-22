@@ -12,10 +12,16 @@ body {
 
 h1{
   font-family: "Bree Serif";
-  font-size: 2em;
+  font-size: 3em;
   line-height: 1.15em;
   margin: 20px 0 ;
+}
 
+h2{
+	font-family: "Bree Serif";
+	font-size: 2em;
+	line-height: 1.15em;
+	margin: 20px 0 ;
 }
 
 .home-intro-section{
@@ -33,12 +39,13 @@ h1{
 .home-intro-section-text{
   width: 85%;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .home-intro-left{
   width: 60%;
   /* padding-left: 100px; */
+
 }
 
 
@@ -51,42 +58,128 @@ h1{
   text-align: center;
 }
 
+.home-services h2, .submission-form-section h2{
+	margin: 60px;
+}
+
 .home-services-row{
   width: 100%;
-}
-
-.about-page-row{
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
 
 }
+
+
 
 .column{
-  width: 33.33%;
+  width: 33%;
+	margin: 0 auto;
   float: left;
   /* text-align: center; */
 }
 
 
-.gloria{
+/* .about-page-section{
 	clear: both;
+} */
+
+
+.column img, .column h3{
+	margin-bottom: 30px;
+}
+
+
+.page-title{
+	padding: 100px 0px 60px;
+}
+
+.home-intro-left h1, .home-intro-left p, .home-intro-left a{
+	margin-bottom:20px;
+}
+
+
+
+/* home page FORM */
+
+.submission-form-section{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+
+}
+
+.submission-form-section p{
+	/* background-color: salmon; */
+	margin: 30px;
+}
+
+
+
+input, textarea{
+  width: 50%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+form{
+text-align: center;
 }
 
 
 
 
 
+/*form ends */
+
+
 /* ////////////////About Page ///////////////// */
 
 .about-page{
-	padding-top:100px;
+	/* padding-top:100px; */
 	width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 
 
+
+.about-page-row{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+.about-page-clear{
+	clear: both;
+}
+
+
+
+.about-page-section{
+	/* clear: both; */
+	padding: 30px 0px;
+}
+
+
+.bridging-row{
+	width: 100%;
+
+}
+
+.bridging-row-item{
+	width: 50%;
+	float: left;
+
+	margin: 0 auto;
+}
+
+.gloria{
+	clear:both;
+}
 
 
 /* //////////////About Pgae 2//////////// */
@@ -108,12 +201,18 @@ h1{
 /*   ////services page ////// */
 
 .services-page{
-	padding-top:100px;
+	/* padding-top:100px; */
 	width: 80%;
   margin: 0 auto;
   text-align: center;
 }
 
+
+
+/* ///////// locations page ////////// */
+.locations-page{
+	padding-top: 100px;
+}
 
 
 
@@ -158,24 +257,36 @@ h1{
 
 
 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 880px) {
 
-.column{
-  /* services row becomes full width */
-  width: 100%;
-}
+
 
 
 .home-intro-section-text{
   width: 100%;
   margin: 0 auto;
-  /* margin-top: 60px; */
+	margin-top: 80px;
+
 }
 
 .home-intro-left{
   width: 80%;
-  margin: 0 auto
-  /* padding-left: 100px; */
+  margin: 0 auto;
+
+}
+
+
+.home-buttons{
+	text-align: center;
+
+}
+
+
+
+.column{
+  /* services row becomes full width */
+  width: 100%;
+	margin-bottom: 30px;
 }
 
 
