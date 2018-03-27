@@ -168,14 +168,19 @@ text-align: center;
 
 .bridging-row{
 	width: 100%;
-
+display: flex;
+justify-content: space-around;
 }
 
-.bridging-row-item{
-	width: 50%;
+/* .bridging-row-item{
+	width: 40%;
 	float: left;
 
 	margin: 0 auto;
+} */
+
+.bridging-row-item{
+	width: 45%;
 }
 
 .gloria{
@@ -201,10 +206,38 @@ text-align: center;
 
 
 
+
 /* ///////// locations page ////////// */
 .locations-page{
-	padding-top: 100px;
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+
 }
+
+.locations-row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.locations-row-item{
+	width: 40%;
+
+}
+
+.locations-row-item a{
+	color: #4C9CF1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.locations-row-item a:hover{
+	color: #444;
+
+}
+
 
 
 
@@ -281,8 +314,23 @@ text-align: center;
 	margin-bottom: 30px;
 }
 
+.bridging-row-item{
+	width: 100%;
+}
 
 
+
+.locations-page{
+	width: 100%;
+}
+.locations-row-item{
+	width: 50%;
+
+}
+
+.locations-row-item h2{
+	font-size:1.15em;
+}
 
 
 
