@@ -183,29 +183,20 @@ text-align: center;
 }
 
 
-/* //////////////About Pgae 2//////////// */
-
-.about-page-2{
-	padding-top:100px;
-	width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.about-page-row-2{
-	text-align: left;
-
-}
-
 
 
 /*   ////services page ////// */
 
 .services-page{
 	/* padding-top:100px; */
-	width: 80%;
+	width: 75%;
   margin: 0 auto;
   text-align: center;
+}
+
+.gloria img{
+	/* margin: 40px; */
+	padding: 30px;
 }
 
 
