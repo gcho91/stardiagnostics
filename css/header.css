@@ -56,8 +56,7 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	/* background: #4C8FEC url(/img/hamburger.svg) center no-repeat; */
-	background: url(/img/icons/hamburger.svg) center no-repeat;
+	background: url(https://s3.amazonaws.com/stardiagnostics/hamburger.svg) center no-repeat;
 
 
 }
@@ -86,16 +85,14 @@ nav li {
 
 .current {
 	color: #2262AD;
-	/* color: salmon; */
-
 }
 
 
 
 
 
-/*//////////////////////////header media query /////////////*/
-/*  *********************************************************************   */
+/*//////////////////////////header media query //////////////////////////*/
+
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 640px) {
